@@ -1,0 +1,23 @@
+.footer {
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  padding: 20px 20px 20px 40px;
+  border-top: 1px rgba(33, 33, 33, 0.4) solid;
+}
+
+.footer-text {
+  width: 105px;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #212121;
+  opacity: 0.7;
+}

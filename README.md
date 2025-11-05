@@ -1,21 +1,25 @@
-# Project 3: Spots
+# Spots
 
-### Overview  
+A webpage application designed for uploading photos, sharing posts and appreciating other users posts.
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+## description
+
+Spots is a front-end photo-sharing web application that lets users upload, share and see others' posts. The goal with this project was to build a user-friendly and responsive web app that mirrors a modern social media feed.
+
+## Tech Stack
+
+- HTML
+- CSS (BEM, Flexbox, Grid)
+- Responsive Design
+
+## Deployment
+
+This project was deployed on GitHub!
+
+GitHub:
+
+## Project Pitch Video
+
+Check out the video below to see the pitch for this project! Here I describe the project and some of the challenges I faced while building it.
+
+Video:
