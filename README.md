@@ -22,4 +22,4 @@ GitHub: https://jennawritescode.github.io/se_project_spots/
 
 Check out the video below to see the pitch for this project! Here I describe the project and some of the challenges I faced while building it.
 
-Video:
+Video: https://drive.google.com/file/d/1qKUABqgY5Oz3epNfhxBUi4SCJani9Kco/view?usp=sharing
