@@ -16,7 +16,7 @@ Spots is a front-end photo-sharing web application that lets users upload, share
 
 This project was deployed on GitHub!
 
-GitHub:
+GitHub: https://jennawritescode.github.io/se_project_spots/
 
 ## Project Pitch Video
 
