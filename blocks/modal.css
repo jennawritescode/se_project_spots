@@ -1,0 +1,120 @@
+.modal {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_is-opened {
+  visibility: visible;
+}
+
+.modal__container {
+  max-width: 730px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 32px 50px;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.modal__close-button {
+  position: absolute;
+  background: none;
+  width: 40px;
+  height: 40px;
+  top: 32px;
+  right: 50px;
+  border-radius: 8px;
+  border: 1px;
+  padding: 0;
+}
+
+.modal__close-button-img{
+width: 100%;
+}
+
+.modal__title {
+  margin: 0 0 32px 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  max-width: 100%;
+}
+
+.modal__label {
+  margin: 0 0 32px 0;
+  font-size: 16px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  color: rgba(33, 33, 33, 0.7);
+  width: 100%;
+}
+
+.modal__input {
+  display: block;
+  box-sizing: border-box;
+  margin: 8px 0 0;
+  width: 100%;
+  padding: 16px 12px;
+  border: rgba(33, 33, 33, 0.4) 1px solid;
+  border-radius: 8px;
+  border: 630px, 52px;
+}
+
+.modal__input::placeholder {
+  color: #2121214D;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+
+.modal__submit-button{
+  background-color: #212121;
+  padding: 18px 32px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color:#FCF5E5 ;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  max-width: 156px;
+  border-radius: 8px;
+  border: none;
+}
+
+@media screen and (max-width: 340px ) {
+  .modal__container{
+    padding: 12px;
+    width: 300px;
+    height: 336px;
+    top: 134px;
+    left: 10px;
+  }
+
+  .modal__submit-button{
+    width: 276px;
+  }
+}
