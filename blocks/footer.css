@@ -7,6 +7,13 @@
   padding: 20px 20px 20px 40px;
 }
 
+.footer__content {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 .footer-text {
   text-align: center;
   width: 105px;

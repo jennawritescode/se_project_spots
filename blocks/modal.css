@@ -33,7 +33,7 @@
   top: 32px;
   right: 50px;
   border-radius: 8px;
-  border: 1px;
+  border: none;
   padding: 0;
 }
 
@@ -76,7 +76,6 @@ width: 100%;
   padding: 16px 12px;
   border: rgba(33, 33, 33, 0.4) 1px solid;
   border-radius: 8px;
-  border: 630px, 52px;
 }
 
 .modal__input::placeholder {
@@ -100,21 +99,33 @@ width: 100%;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
-  max-width: 156px;
+  width: 156px;
   border-radius: 8px;
   border: none;
 }
 
-@media screen and (max-width: 340px ) {
+@media screen and (max-width: 600px ) {
   .modal__container{
     padding: 12px;
     width: 300px;
-    height: 336px;
-    top: 134px;
-    left: 10px;
+  }
+  .modal__title{
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+  .modal__close-button {
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .modal__input::placeholder{
+    font-size: 16px;
   }
 
   .modal__submit-button{
-    width: 276px;
+    width: 100%;
+
   }
 }
