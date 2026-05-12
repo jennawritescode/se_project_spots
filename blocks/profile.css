@@ -69,6 +69,7 @@
 
 .profile__add-btn {
   display: flex;
+  border: none;
   justify-content: center;
   align-items: center;
   margin-left: auto;
